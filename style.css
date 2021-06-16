@@ -1,0 +1,93 @@
+body{
+    margin:0;
+    padding: 0;
+    background:url(https://i.ytimg.com/vi/xDzLRXO8rb0/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-color: #ccc;
+}
+
+.section{
+    min-height: 73.4vh; 
+    max-height: auto;   
+    border: 1px solid black;
+    margin-top: 25%;
+    background-color:rgb(245, 239, 239);
+}
+
+
+
+.menuzin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid royalblue;
+    list-style: none;
+    background-color: yellow;
+    height: 50px;
+    align-items: center;
+    
+    
+}
+.menuzin a {
+    border: 1px red solid;
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.flex-control{
+    border: 1px solid purple;
+    display: flex;
+    justify-content: row;
+    width: auto;
+    height: 500px;
+}
+
+.card{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.imagem-perfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50% 50% 50%;
+    margin-top: 20px;
+}
+
+.info-card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info-geral{
+    border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 60%;
+    height: 50%;
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: solid 2px black;
+    background-color:yellow;
+    height: 50px;
+    align-items:center;
+}
+
+
