@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(https://assets1.ignimgs.com/thumbs/userUploaded/2021/6/11/residentextractionthumb-1623466461407.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;   
+    overflow-x: hidden;
+}
+.teste{
+    width: 100px;
+    height: 100px
+}
+.section{
+    min-height: 73.4vh; 
+    max-height: auto;   
+    border: 1px solid black;
+    margin-top: 25%;
+    background-color:rgb(46, 43, 43, 0.98);
+    width: auto;
+    height: 800px;
+}
+.menuzin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid royalblue;
+    list-style: none;
+    background-color: rgb(250, 216, 31);
+    height: 80px;
+    align-items: center;  
+    margin-top: 0;
+}
+.menuzin a {
+    padding: 10px 10px 10px 10px;
+    border: 2.5px rgb(0, 0, 0, 1) solid;
+    font-family: 'Staatliches', cursive;
+    color:#000;
+    text-decoration: none; 
+    font-size: 22px;
+}
+
+.flex-control{
+    border:2px solid black;
+    display: flex;
+    width: 800px;
+    height: 500px;
+    margin:0 auto;
+    margin-top: 110px;
+    
+}
+
+.borda{
+   border:1px solid black;
+   background-color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+
+}
+.imagem-perfil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.info-card {
+    text-align:center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+.info-card p{
+    color: #fff;
+}
+
+.operadores-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    height:auto;
+}
+
+.card-op img{
+    width: 50px;
+    height: 50px;
+}
+
+.card-op{  
+    border: 3.5px solid black; 
+}
+.card-op p{
+    border-top: 4px rgb(14, 13, 13) solid;
+    background-color: rgb(122, 122, 119);
+    margin:0;
+    text-align: center;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: solid 2px black;
+    background-color:rgb(250, 216, 31);
+    height: 50px;
+    align-items:center;
+}
+
+
