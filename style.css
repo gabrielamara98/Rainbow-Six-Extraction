@@ -9,34 +9,38 @@ body{
     background-color: #ccc;
 }
 
+.teste{
+    width: 100px;
+    height: 100px
+}
 .section{
     min-height: 73.4vh; 
     max-height: auto;   
     border: 1px solid black;
     margin-top: 25%;
-    background-color:rgb(245, 239, 239);
+    background-color:rgb(46, 43, 43, 0.98);
+    width: auto;
+    height: 800px;
 }
-
-
-
 .menuzin{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border:1px solid royalblue;
     list-style: none;
-    background-color: yellow;
-    height: 50px;
-    align-items: center;
-    
-    
+    background-color: rgb(250, 216, 31);
+    height: 80px;
+    align-items: center;  
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .menuzin a {
-    border: 1px red solid;
-    font-family: 'Noto Sans', sans-serif;
-    color:rgb(0, 0, 0);
-    text-decoration: none;
-    
+    padding: 10px 10px 10px 10px;
+    border: 2.5px rgb(0, 0, 0, 1) solid;
+    font-family: 'Staatliches', cursive;
+    color:#000;
+    text-decoration: none; 
+    font-size: 22px;
 }
 
 .flex-control{
