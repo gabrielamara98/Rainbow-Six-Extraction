@@ -44,45 +44,70 @@ body{
 }
 
 .flex-control{
-    border: 1px solid purple;
+    margin-top:70px;
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: auto;
-    height: 500px;
+    height: 600px;
 }
 
-.card{
-    border: 1px solid red;
+.r6-card{
+    border:2px solid green;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     height: 100%;
-    margin-left: 80px;
     align-items: center;
+    border:5px solid black;
+    
 }
 
-.imagem-perfil img{
+.title-card-index{
+    border-bottom: 5px solid black;;
+    text-align: center;
+    width:100%;
+    background-color: yellow;
+    font-family: 'Staatliches', cursive;
+}
+
+
+.r6-card img{
+    margin-top:10px;
     width: 200px;
     height: 200px;
-    border-radius: 50% 50% 50% 50%;
-    margin-top: 20px;
+    border:1px groove rgb(250, 216, 31)
 }
 
-.info-card {
-    margin-left: 10px;
-    margin-right: 10px;
+.r6-card p{
+    text-align:center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    border: 1px solid snow;
+    
 }
 
-.info-geral{
-    border:1px solid red;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
-    width: 60%;
-    height: 50%;
+.read-more-index button {
+    margin-top: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: yellow;
+    padding: 10px 20px 10px 20px; 
+    
+    
+}
 
+.read-more-index a{
+    text-decoration: none;
+    font-style: none;
+    color:black;
+    font-size: 18px;
+    font-family: 'Staatliches', cursive;
 
 }
+
+
+
 
 .footer{
     display: flex;
