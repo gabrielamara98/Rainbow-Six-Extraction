@@ -1,23 +1,16 @@
 body{
     margin:0;
     padding: 0;
-    background:url(https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2vO44JOlTBVezkeHXt92iu/780d73a363d4f56f965a1036b592cd66/r6e_reveal_trailer.png);
+    background:url(https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1RvSVbTM0E2v7uXgHpxzjh/076c00e77e68ff72bcd632531ee4c584/r6eX_sidepromo_asset.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
     background-color: #ccc;
+    object-fit: cover;
 }
+/* Scrollbar */
 
-.section{
-    min-height: 73.4vh; 
-    max-height: auto;   
-    border: 1px solid black;
-    margin-top: 25%;
-    background-color:rgb(46, 43, 43, 0.98);
-    width: auto;
-    height: 800px;
-}
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -30,6 +23,15 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+/* Content involving all text information */
+.section{
+    min-height: 73.4vh; 
+    max-height: auto;   
+    margin-top: 25%;
+    background-color:rgb(46, 43, 43, 0.98);
+    width: auto;
+    height: 800px;
+}
 /* Header properties */
 .menu{
     display: flex;
@@ -42,10 +44,6 @@ body{
     align-items: center;  
     margin-top: 0;
     margin-bottom: 0;
-}
-.logo-brathuka{
-    width: 100px;
-    height: 100px
 }
 .menu li{
     transition: 0.4s;
@@ -66,53 +64,29 @@ body{
     text-decoration: underline #fff;
     transition: 0.5s;
 }
-/* Boxes with informations of operators */
-.intro-ops{
-    margin: 0 auto;
-    border: 1px solid red;
+.logo-brathuka{
+    width: 100px;
+    height: 100px
+}
+
+.flex-control-monsters{
+    border:2px solid red;
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
     width: 1200px;
-    height: 200px;
-
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
-.imagem-op{
-    border:1px solid green;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 10%;
 
-}
-
-.divisoria{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(14, 13, 13,0.7);
-    width: 5%;
-    height: 100%;
-    border: 1px groove white;
-
-}
-
-.info-op{
-    border:1px solid yellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height:100% ;
-    width:40% ;
-}
-
-/* Footer */
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
     border-top: solid 2px black;
-    background-color:yellow;
+    background-color:rgb(250, 216, 31);
     height: 50px;
     align-items:center;
 }
+
