@@ -9,6 +9,21 @@ body{
     overflow-x: hidden;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  } 
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 .section{
     min-height: 73.4vh; 
     max-height: auto;   
@@ -18,6 +33,7 @@ body{
     width: auto;
     height: 800px;
 }
+
 /* Header properties */
 .menu{
     display: flex;
