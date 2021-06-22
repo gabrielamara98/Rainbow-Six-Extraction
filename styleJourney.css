@@ -13,17 +13,18 @@ body{
 /* Scrollbar */
 
 ::-webkit-scrollbar{
-    width: 10px;
+    width: 9px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
   } 
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
   }
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
 /* Content involving all text information */
 .section{   
     margin-top: 25%;
@@ -85,7 +86,7 @@ body{
     width: 800px;
     height: 200px;
     margin:0 auto;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 .img-card{
     
@@ -108,14 +109,22 @@ body{
     width: 100%;
     height:100%;
 }
-.info-card h1, p{
+.info-card h1{
     border-bottom: 1px solid yellow;
     font-family: 'Staatliches', cursive;
     color:rgb(250, 216, 31);
+
+}
+.info-card p{
+    border-bottom: 1px solid yellow;
+    font-family: 'Staatliches', cursive;
+    color:rgb(250, 216, 31);
+    
+    
 }
 .info-card span{
     font-family: 'Staatliches', cursive;
-    color: white;
+    color: white; 
 }
 
 .footer{
@@ -126,5 +135,68 @@ body{
     background-color:rgb(250, 216, 31);
     height: 50px;
     align-items:center;
+}
+
+
+@media (max-width:480px){
+    .section{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .flex-control-card{
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 15%;
+        width: 100%;
+    }
+    .title-tier{
+        margin-left: 0;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .menu img{
+        display: none;
+    }
+
+}
+@media(min-width: 481px) and (max-width:768px){
+    .section{
+        width: 100%;
+        height: 100%;
+    }
+    .flex-control-card{
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        height: 15%;
+        width: 100%;
+    }
+    .title-tier{
+        margin-left: 0;
+    }
+    .menu img {
+        display: none;
+    }
+    
+}
+@media(min-width: 769px) and (max-width:1279px){
+    .section{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .flex-control-card{
+        flex-wrap: wrap;
+        height: 15%;
+        width: 100%;
+    }
+    .title-tier{
+        margin-left: 0;
+    }
+
 }
 
