@@ -8,6 +8,7 @@ body{
     background-attachment: fixed;
     background-color: #ccc;
     object-fit: cover;
+    box-sizing: border-box;
 }
 /* Scrollbar */
 ::-webkit-scrollbar{
@@ -23,12 +24,10 @@ body{
     background: #555; 
   }
 /* Content involving all text information */
-.section{
-    min-height: 73.4vh; 
-    max-height: auto;   
+.section{  
     margin-top: 25%;
     background-color:rgb(46, 43, 43, 0.98);
-    width: auto;
+    width: 100%;
     height: 800px;
 }
 /* Header properties */
@@ -73,8 +72,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: auto;
+    width: 100%;
     height: 600px;
+    
 }
 .r6-card{
     border:2px solid green;
@@ -138,6 +138,93 @@ body{
     font-weight: bold;
 }
 
+@media (max-width:480px){
+    .section{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .flex-control{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+    .r6-card{
+        width: 95%;
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+    .read-more-index{
+        margin-bottom: 50px;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .menu img{
+        display: none;
+    }
+
+}
+@media(min-width: 481px) and (max-width:768px){
+    .section{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .flex-control{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+    .r6-card{
+        width: 95%;
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+    .read-more-index{
+        margin-bottom: 50px;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .menu img{
+        display: none;
+    }
+
+}
+@media(min-width: 769px) and (max-width:1279px){
+    .section{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .flex-control{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+    .r6-card{
+        text-align: center;
+        width: 95%;
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+    .read-more-index{
+        margin-bottom: 50px;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .menu img{
+        display: none;
+    }
+
+}
 
 
 
