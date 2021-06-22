@@ -8,6 +8,7 @@ body{
     background-attachment: fixed;
     background-color: #ccc;
     object-fit: cover;
+    box-sizing: border-box;
 }
 /* Scrollbar */
 
@@ -24,13 +25,11 @@ body{
     background: #555; 
   }
 /* Content involving all text information */
-.section{
-    min-height: 73.4vh; 
-    max-height: auto;   
+.section{   
     margin-top: 25%;
     background-color:rgb(46, 43, 43, 0.98);
-    width: auto;
-    height: 800px;
+    width: 100%;
+    height: 2800px;
 }
 /* Header properties */
 .menu{
@@ -69,16 +68,55 @@ body{
     height: 100px
 }
 
-.flex-control-monsters{
-    border:2px solid red;
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    height: 500px;
-    margin: 0 auto;
-    margin-top: 100px;
-}
+.title-tier{
+    position: relative;
+    font-family: 'Staatliches', cursive;
+    color:rgb(250, 216, 31);
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
+}
+.flex-control-card{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    margin-left:100px;
+    width: 800px;
+    height: 200px;
+    margin:0 auto;
+    margin-bottom: 50px;
+}
+.img-card{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+}
+.img-card img{
+    width: 300px;
+    height: 200px;
+    border:2px groove gold;
+    
+}
+.info-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:100%;
+}
+.info-card h1, p{
+    border-bottom: 1px solid yellow;
+    font-family: 'Staatliches', cursive;
+    color:rgb(250, 216, 31);
+}
+.info-card span{
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
 
 .footer{
     display: flex;
