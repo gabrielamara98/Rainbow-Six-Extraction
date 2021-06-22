@@ -83,10 +83,10 @@ body{
     width: 25%;
     height: 100%;
     align-items: center;
-    border:5px solid black;
+    border:3px solid black;
 }
 .title-card-index{
-    border-bottom: 5px solid black;;
+    border-bottom: 3px solid black;;
     text-align: center;
     width:100%;
     background-color: rgb(247, 215, 39);;
@@ -97,13 +97,15 @@ body{
     margin-left: 30px;
     margin-right: 30px;
     font-size: 18px;
-    border: 1px solid snow;  
+    color: snow;
+    font-family: 'Roboto Condensed', sans-serif;
+    
 }
 .img-card-index img{
     object-fit: cover;
     margin-top:10px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 190px;
 }
 .read-more-index button {
     margin-top: 50px;
@@ -132,7 +134,10 @@ body{
     background-color:rgb(250, 216, 31);
     height: 50px;
     align-items:center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
+
+
 
 
