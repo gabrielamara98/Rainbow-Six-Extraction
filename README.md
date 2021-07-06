@@ -16,9 +16,9 @@
 - [x] Decide the pages design
 - [x] Html Strutucture
 - [x] Pages Features
-- [ ] Working on CSS
-- [ ] Additional Effects
-- [ ] JavaScript
+- [x] Working on CSS
+- [x] Additional Effects
+- [x]avaScript
 
 ## 💜 About US
 
