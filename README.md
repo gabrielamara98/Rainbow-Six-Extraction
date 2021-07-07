@@ -18,7 +18,7 @@
 - [x] Pages Features
 - [x] Working on CSS
 - [x] Additional Effects
-- [x]avaScript
+- [x] JavaScript
 
 ## 💜 About US
 
